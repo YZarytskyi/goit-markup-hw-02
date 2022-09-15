@@ -35,7 +35,8 @@ body {
 }
 
 .hidden {
-  display: none;
+  position: absolute;
+  visibility: hidden;
 }
 
 .page-header {
@@ -96,6 +97,7 @@ body {
 .features-subtitle {
   color: var(--color-text-secondary);
   font-weight: 700;
+  font-size: inherit;
   line-height: 1.14;
 }
 
@@ -179,7 +181,6 @@ body {
 
 .portfolio-list-projects > li {
   width: 370px;
-  height: 404px;
   border: 1px solid #eeeeee;
 }
 
